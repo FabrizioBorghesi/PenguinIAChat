@@ -10,4 +10,19 @@ Go to respository:
 ```bash
   cd PenguinAIChat
 ```
+Virtual Environment Setup:
+
+Creating virtual environment:
+```bash
+python -m venv venv
+```
+```bash
+# On Windows, use venv\Scripts\activate
+# On Unix or MacOS, use source venv/bin/activate
+source venv/bin/activate
+```
+
+
+
+
 
