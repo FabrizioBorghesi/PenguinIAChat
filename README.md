@@ -16,6 +16,7 @@ Creating virtual environment:
 ```bash
 python -m venv venv
 ```
+Activating virtual environment:
 ```bash
 # On Windows, use venv\Scripts\activate
 # On Unix or MacOS, use source venv/bin/activate
