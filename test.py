@@ -1,7 +1,10 @@
 import openai
+from dotenv import load_dotenv
 
-# Substitua 'sua_api_key_aqui' pela sua chave de API da OpenAI
-openai.api_key = "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"
+load_dotenv()
+
+
+openai.api_key = os.getenv("OPENAI_API_KEY") 
 
 def ask_gpt(message):
     response = openai.chat.completions.create(
