@@ -3,11 +3,11 @@
 # Using
 
 Cloning the Repository:
-bash```
+```bash
   git clone https://github.com/FabrizioBorghesi/PenguinIAChat.git
 ```
 Go to respository:
-bash```
+```bash
   cd PenguinAIChat
 ```
 
